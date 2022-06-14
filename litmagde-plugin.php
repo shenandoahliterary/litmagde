@@ -9,7 +9,7 @@ Author URI: https://endlesshybrids.com
 /* Start Adding Functions Below this Line */
 function wporg_register_taxonomy_TOC() {
     $labels = array(
-        'name'              => _x( 'TOC', 'taxonomy general name' ),
+        'name'              => _x( 'Table of Contents', 'taxonomy general name' ),
         'singular_name'     => _x( 'TOC', 'taxonomy singular name' ),
         'search_items'      => __( 'Search TOC' ),
         'all_items'         => __( 'All Contents' ),
