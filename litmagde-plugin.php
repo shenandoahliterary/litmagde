@@ -10,16 +10,16 @@ Author URI: https://endlesshybrids.com
 function wporg_register_taxonomy_TOC() {
     $labels = array(
         'name'              => _x( 'TOC', 'taxonomy general name' ),
-        'singular_name'     => _x( 'Course', 'taxonomy singular name' ),
-        'search_items'      => __( 'Search Courses' ),
-        'all_items'         => __( 'All Courses' ),
-        'parent_item'       => __( 'Parent Course' ),
-        'parent_item_colon' => __( 'Parent Course:' ),
-        'edit_item'         => __( 'Edit Course' ),
-        'update_item'       => __( 'Update Course' ),
-        'add_new_item'      => __( 'Add New Course' ),
-        'new_item_name'     => __( 'New Course Name' ),
-        'menu_name'         => __( 'Course' ),
+        'singular_name'     => _x( 'TOC', 'taxonomy singular name' ),
+        'search_items'      => __( 'Search TOC' ),
+        'all_items'         => __( 'All Contents' ),
+        'parent_item'       => __( 'Parent TOC' ),
+        'parent_item_colon' => __( 'Parent TOC:' ),
+        'edit_item'         => __( 'Edit TOC' ),
+        'update_item'       => __( 'Update TOC' ),
+        'add_new_item'      => __( 'Add New TOC' ),
+        'new_item_name'     => __( 'New TOC Name' ),
+        'menu_name'         => __( 'Table of Contents' ),
     );
     $args   = array(
         'hierarchical'      => true, // make it hierarchical (like categories)
